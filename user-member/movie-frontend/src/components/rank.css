@@ -1,0 +1,39 @@
+.rank-container {
+  width: 400px;
+  height: 42px;
+  overflow: hidden;
+  background-color: #1b1b1b;
+  opacity: 0.8;
+  border-radius: 10px;
+  padding-left: 20px;
+  margin-top: 10px;
+  color: gold;
+  /* margin-top: 10px; */
+
+  position: absolute;
+  margin-left: 400px;
+}
+.rank-container h1 {
+  font-size: 20px;
+  border-bottom: 10px;
+  border-color: #424242;
+  /* font-weight: 2500; */
+}
+
+.rank-container:hover {
+  width: 380px;
+  height: 570px;
+  background-color: rgb(red, green, blue);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 0.5s ease-in-out;
+}
+
+.spam {
+  margin-left: 10px;
+
+  color: red;
+}
+
+h1 {
+  margin: 10px;
+}

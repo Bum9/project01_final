@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap");
+
+.header1 {
+  background-color: #1b1b1b;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 7em;
+}
+
+.logo a {
+  display: flex;
+  text-decoration: none;
+  font-size: 20px;
+}
+ul {
+  display: flex;
+  font-size: 20px;
+}
+ul a {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-weight: bold;
+  width: max-content;
+}
+
+.logo li {
+  list-style: none;
+}
+
+.home {
+  font-family: "Work Sans", sans-serif;
+}
+
+.view {
+  color: gold;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.logButton {
+  position: absolute;
+  left:75%;
+
+
+  height: 65px;
+}
